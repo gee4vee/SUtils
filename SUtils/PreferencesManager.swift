@@ -1,6 +1,6 @@
 //
-//  PreferencesController.swift
-//  ClickClip
+//  PreferencesManager.swift
+//  A class for managing preferences defined via NSUserDefaultsController.
 //
 //  Created by Gabriel Valencia on 4/17/17.
 //  Copyright © 2017 Gabriel Valencia. All rights reserved.

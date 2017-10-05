@@ -1,6 +1,6 @@
 //
 //  Extensions.swift
-//  SUtils
+//  Some useful class extensions.
 //
 //  Created by Gabriel Valencia on 10/2/17.
 //  Copyright © 2017 Gabriel Valencia. All rights reserved.
