@@ -12,6 +12,26 @@ public class Extensions: NSObject {
 
 }
 
+public extension String {
+    
+    /**
+     Find the range of a substring within this string.
+     
+     - Parameter substring: The string to search for in this string.
+     
+     - Returns: The range of the substring, if found.
+     */
+    public func indexOf(substring: String) -> NSRange? {
+        if let range = self.range(of: substring) {
+            let startPos = self.distance(from: self.startIndex, to: range.lowerBound)
+            return NSMakeRange(startPos, substring.count)
+        }
+        
+        return nil
+    }
+    
+}
+
 public extension ProcessInfo {
     /**
      Used to recognized that UITestings are running and modify the app behavior accordingly

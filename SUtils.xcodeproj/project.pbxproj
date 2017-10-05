@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51635F961F85FEC6000BBB8E /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51635F951F85FEC6000BBB8E /* UIUtils.swift */; };
+		51635F9F1F8690E1000BBB8E /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51635F9E1F8690E1000BBB8E /* StringUtils.swift */; };
 		51B4FDBB1F834B4A00DD6981 /* SUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B4FDB11F834B4A00DD6981 /* SUtils.framework */; };
 		51B4FDC01F834B4A00DD6981 /* SUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4FDBF1F834B4A00DD6981 /* SUtilsTests.swift */; };
 		51B4FDC21F834B4A00DD6981 /* SUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B4FDB41F834B4A00DD6981 /* SUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		51635F951F85FEC6000BBB8E /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		51635F9E1F8690E1000BBB8E /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		51B4FDB11F834B4A00DD6981 /* SUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B4FDB41F834B4A00DD6981 /* SUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUtils.h; sourceTree = "<group>"; };
 		51B4FDB51F834B4A00DD6981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,8 +106,9 @@
 			children = (
 				51B4FDB41F834B4A00DD6981 /* SUtils.h */,
 				51B4FDB51F834B4A00DD6981 /* Info.plist */,
-				51B4FDD21F834C2F00DD6981 /* Random.swift */,
+				51635F9E1F8690E1000BBB8E /* StringUtils.swift */,
 				51B4FDD41F834C4800DD6981 /* Extensions.swift */,
+				51B4FDD21F834C2F00DD6981 /* Random.swift */,
 				51B4FDD91F834CCC00DD6981 /* PreferencesManager.swift */,
 				51635F951F85FEC6000BBB8E /* UIUtils.swift */,
 			);
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B4FDDA1F834CCC00DD6981 /* PreferencesManager.swift in Sources */,
+				51635F9F1F8690E1000BBB8E /* StringUtils.swift in Sources */,
 				51B4FDD31F834C2F00DD6981 /* Random.swift in Sources */,
 				51B4FDD51F834C4800DD6981 /* Extensions.swift in Sources */,
 				51635F961F85FEC6000BBB8E /* UIUtils.swift in Sources */,
