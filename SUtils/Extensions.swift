@@ -34,18 +34,30 @@ public extension String {
 
 public extension Bundle {
     
+    /**
+     Returns the value of the CFBundleName key.
+     */
     var appName: String {
         return infoDictionary?["CFBundleName"] as! String
     }
     
+    /**
+     Returns the value of the bundle identifier.
+     */
     var bundleId: String {
         return bundleIdentifier!
     }
     
+    /**
+     Returns the value of the CFBundleShortVersionString key.
+     */
     var versionNumber: String {
         return infoDictionary?["CFBundleShortVersionString"] as! String
     }
     
+    /**
+     Returns the value of the CFBundleVersion key.
+     */
     var buildNumber: String {
         return infoDictionary?["CFBundleVersion"] as! String
     }
