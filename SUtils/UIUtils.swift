@@ -93,9 +93,14 @@ public class SubstringLinkedTextField: NSTextField {
         self.allowsEditingTextAttributes = true
         self.isSelectable = true
         
+        self.refreshAttributedString()
+    }
+    
+    public func refreshAttributedString() {
         let url = URL(string: self.link)
         let attributes: [NSAttributedStringKey: AnyObject] = [
-            NSAttributedStringKey(rawValue: NSAttributedStringKey.link.rawValue): url as AnyObject
+            NSAttributedStringKey(rawValue: NSAttributedStringKey.link.rawValue): url as AnyObject,
+            NSAttributedStringKey(rawValue: NSAttributedStringKey.font.rawValue): self.font!
         ]
         let attributedStr = NSMutableAttributedString(string: self.stringValue)
         
