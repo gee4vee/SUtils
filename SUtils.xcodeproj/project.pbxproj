@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513BF6661F8F037D0027C436 /* KeychainUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513BF6651F8F037D0027C436 /* KeychainUtils.swift */; };
+		513BF66A1F8F06D70027C436 /* AuthenticationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513BF6691F8F06D70027C436 /* AuthenticationUtils.swift */; };
 		51635F961F85FEC6000BBB8E /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51635F951F85FEC6000BBB8E /* UIUtils.swift */; };
 		51635F9F1F8690E1000BBB8E /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51635F9E1F8690E1000BBB8E /* StringUtils.swift */; };
 		51B4FDBB1F834B4A00DD6981 /* SUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B4FDB11F834B4A00DD6981 /* SUtils.framework */; };
@@ -17,6 +19,7 @@
 		51B4FDD31F834C2F00DD6981 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4FDD21F834C2F00DD6981 /* Random.swift */; };
 		51B4FDD51F834C4800DD6981 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4FDD41F834C4800DD6981 /* Extensions.swift */; };
 		51B4FDDA1F834CCC00DD6981 /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4FDD91F834CCC00DD6981 /* PreferencesManager.swift */; };
+		51FB59141F8B58D100AC3BCE /* CoreDataContextObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB59131F8B58D100AC3BCE /* CoreDataContextObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		513BF6651F8F037D0027C436 /* KeychainUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUtils.swift; sourceTree = "<group>"; };
+		513BF6691F8F06D70027C436 /* AuthenticationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUtils.swift; sourceTree = "<group>"; };
 		51635F951F85FEC6000BBB8E /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
 		51635F9E1F8690E1000BBB8E /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		51B4FDB11F834B4A00DD6981 /* SUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +63,7 @@
 		51B4FDD41F834C4800DD6981 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		51B4FDD91F834CCC00DD6981 /* PreferencesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
 		51B62E431F8555ED0021DEF2 /* STestUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STestUtils.xcodeproj; path = STestUtils/STestUtils.xcodeproj; sourceTree = "<group>"; };
+		51FB59131F8B58D100AC3BCE /* CoreDataContextObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContextObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				51B4FDD21F834C2F00DD6981 /* Random.swift */,
 				51B4FDD91F834CCC00DD6981 /* PreferencesManager.swift */,
 				51635F951F85FEC6000BBB8E /* UIUtils.swift */,
+				51FB59131F8B58D100AC3BCE /* CoreDataContextObserver.swift */,
+				513BF6651F8F037D0027C436 /* KeychainUtils.swift */,
+				513BF6691F8F06D70027C436 /* AuthenticationUtils.swift */,
 			);
 			path = SUtils;
 			sourceTree = "<group>";
@@ -280,7 +289,10 @@
 				51635F9F1F8690E1000BBB8E /* StringUtils.swift in Sources */,
 				51B4FDD31F834C2F00DD6981 /* Random.swift in Sources */,
 				51B4FDD51F834C4800DD6981 /* Extensions.swift in Sources */,
+				51FB59141F8B58D100AC3BCE /* CoreDataContextObserver.swift in Sources */,
+				513BF66A1F8F06D70027C436 /* AuthenticationUtils.swift in Sources */,
 				51635F961F85FEC6000BBB8E /* UIUtils.swift in Sources */,
+				513BF6661F8F037D0027C436 /* KeychainUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
