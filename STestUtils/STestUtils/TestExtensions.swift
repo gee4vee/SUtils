@@ -25,7 +25,7 @@ public extension XCUIElement {
         }
         
         self.click()
-        let deleteString = stringValue.characters.map { _ in XCUIKeyboardKey.delete.rawValue }.joined(separator: "")
+        let deleteString = stringValue.map { _ in XCUIKeyboardKey.delete.rawValue }.joined(separator: "")
         self.typeText(deleteString)
         self.typeText(text)
     }
